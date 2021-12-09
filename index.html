@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css" />
+    <title>CSS Checkup</title>
+</head>
+<body class="wrapper">
+<header class="top-buttons">
+    <button type="submit">About Us</button> 
+    <button type="submit">Locations</button>
+</header>
+<h1>Is an Electric Bike Right for You?</h1>
+<p id="number-three"><strong>Here at EBikes.com, we aim to get you on the best E-bike for you. Whether you are looking for a commuter, cargo bike, mountain bike, recumbent, or one of many other options we offer, we can help you make the right choice. Below, we will ask you a series of question in order to give our staff the information needed to help you select which bike is right for you. Once you fill out the information, one of our consultants will reach out to you to help you through the rest of the selection process.<strong></strong></p>
+<br>
+<br>
+<br>
+<fieldset>
+    <legend>Types of Riding You Want to Do</legend>
+    <p>
+        <input type="checkbox" name="types" id="commuting" value="commuting" />
+        <label for="commuting">Commuting</label>
+    </p>
+    <p>
+        <input type="checkbox" name="types" id="fun-rides" value="fun-rides" />
+        <label for="fun-rides">Fun Rides</label>
+    </p>
+    <p>
+        <input type="checkbox" name="types" id="off-road" value="off-road" />
+        <label for="off-road">Off-Road</label>
+    </p>
+    <p>
+        <input type="checkbox" name="types" id="mixed-use" Value="mixed-use />
+        <label for="mixed-use">Both Off-Road and Streets</label>
+    </p>
+</fieldset>
+<br>
+<br>
+<br>
+<fieldset>
+    <legend>Most Important Feature for You</legend>
+    <p>
+        <input type="radio" name="feature" id="feature0" />
+        <label for="feature0">Long Range</label>
+    </p>
+    <p>
+        <input type="radio" name="feature" id="feature1" value="feature1" />
+        <label for="feature1">High Power</label>
+    </p>
+    <p>
+        <input type="radio" name="feature" id="feature2" value="feature2" />
+        <label for="feature2">Comfort</label>
+    </p>
+    <p>
+        <input type="radio" name="feature" id="feature3" value="feature3" />
+        <label for="feature3">Off-Road Capability</label>
+    </p>
+</fieldset>
+<br>
+<br>
+<div>
+    <h1>Contact Methods</h1>
+    <h2 id="number-one">Text Message</h2>
+    <p>This is best if you cant talk on the phone (ex. in a noisy environment)</p>
+
+    <h2 id="number-two">Telephone</h2>
+    <p>This is best if you have a quiet environment that is conducive to conversation</p>
+</div>
+<h1>Your information</h1>
+
+<div style="border: solid 2px black; padding: .5rem;">
+    <form>
+        <p>
+            <label for="name">Name: <input /></label>
+        </p>
+        <p>
+            <label for="address">Street Address: <input id="address" type="text" /></label>
+        </p>
+        <p>
+            <label for="telephone">Telephone #: <input id="telephone" type="number" /></label>
+        </p>
+        <p>
+            <label for="email">Email Address: <input id="email" type="text"/></label>
+        </p>
+        <button class= "submit-button" type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
